@@ -24,6 +24,7 @@ public class Manager extends Employee {
 
     @Override
     public void show() {
+
         System.out.println(bumen+"的:"+name+",员工编号:"+num+"他的职员是"+clerk.getName());
     }
 }

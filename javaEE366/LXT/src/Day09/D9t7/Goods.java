@@ -4,6 +4,11 @@ public class Goods {
     private String name;
     private String id;
     private double price;
+    public void show(){
+        System.out.println("商品名称:" +name);
+        System.out.println("\tid:" +id);
+        System.out.println("\t价格:" +price);
+    }
 
     public Goods() {
     }
